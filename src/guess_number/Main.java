@@ -36,6 +36,6 @@ public class Main {
             System.out.print("Haben Sie Lust, noch ein mal zu spielen? [ n / y] :");
             agree = scan.next();
         }
-            System.out.println("Wir werden auf Sie im letzten Mal warten. Viel Erfol!");
+            System.out.println("Wir werden auf Sie im nächsten Mal warten. Viel Erfol!");
     }
 }
