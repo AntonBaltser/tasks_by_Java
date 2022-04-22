@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        int guess = 0;
+        int guess;
         String agree;
         System.out.print("Möchten Sie in ein Spiel spielen, das man \"rate Zahl\" nennt? Tippen Sie [ yes / no ] ein: ");
         agree = scan.next();
@@ -21,7 +21,6 @@ public class Main {
                     System.out.print("Ihr vorausplanende Zahl ist " + guess + " GRÖßER als benötigt. Versuchen Sie noch ein mal: ");
                 } else
                     System.out.println("Gratulation! Sie haben gewonnen!");
-
             }while (guess != theNumber);
             System.out.print("Haben Sie Lust, noch ein mal zu spielen? [ n / y] :");
             agree = scan.next();
