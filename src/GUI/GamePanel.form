@@ -43,12 +43,13 @@
           <text value="Change"/>
         </properties>
       </component>
-      <component id="aad86" class="javax.swing.JButton" binding="enterButton" default-binding="true">
+      <component id="aad86" class="javax.swing.JButton" binding="btnGuess">
         <constraints>
           <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Enter"/>
+          <hideActionText value="false"/>
+          <text value="Guess"/>
         </properties>
       </component>
       <component id="fe992" class="javax.swing.JLabel" binding="guessLabel">
